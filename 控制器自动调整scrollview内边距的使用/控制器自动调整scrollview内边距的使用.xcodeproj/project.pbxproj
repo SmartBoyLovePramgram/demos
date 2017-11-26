@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96FB3441FCAB3310025F418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB3431FCAB3310025F418 /* AppDelegate.m */; };
+		A96FB3471FCAB3310025F418 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB3461FCAB3310025F418 /* ViewController.m */; };
+		A96FB34A1FCAB3310025F418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96FB3481FCAB3310025F418 /* Main.storyboard */; };
+		A96FB34C1FCAB3310025F418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96FB34B1FCAB3310025F418 /* Assets.xcassets */; };
+		A96FB34F1FCAB3310025F418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96FB34D1FCAB3310025F418 /* LaunchScreen.storyboard */; };
+		A96FB3521FCAB3310025F418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB3511FCAB3310025F418 /* main.m */; };
+		A96FB35C1FCAB3310025F418 /* _______scrollview______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB35B1FCAB3310025F418 /* _______scrollview______Tests.m */; };
+		A96FB3671FCAB3310025F418 /* _______scrollview______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB3661FCAB3310025F418 /* _______scrollview______UITests.m */; };
+		A96FB3761FCAB34C0025F418 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FB3751FCAB34C0025F418 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96FB3581FCAB3310025F418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96FB3371FCAB3310025F418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96FB33E1FCAB3310025F418;
+			remoteInfo = "控制器自动调整scrollview内边距的使用";
+		};
+		A96FB3631FCAB3310025F418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96FB3371FCAB3310025F418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96FB33E1FCAB3310025F418;
+			remoteInfo = "控制器自动调整scrollview内边距的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96FB33F1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制器自动调整scrollview内边距的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96FB3421FCAB3310025F418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A96FB3431FCAB3310025F418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A96FB3451FCAB3310025F418 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A96FB3461FCAB3310025F418 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A96FB3491FCAB3310025F418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96FB34B1FCAB3310025F418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96FB34E1FCAB3310025F418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A96FB3501FCAB3310025F418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96FB3511FCAB3310025F418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A96FB3571FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制器自动调整scrollview内边距的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96FB35B1FCAB3310025F418 /* _______scrollview______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______scrollview______Tests.m"; sourceTree = "<group>"; };
+		A96FB35D1FCAB3310025F418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96FB3621FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制器自动调整scrollview内边距的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96FB3661FCAB3310025F418 /* _______scrollview______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______scrollview______UITests.m"; sourceTree = "<group>"; };
+		A96FB3681FCAB3310025F418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96FB3741FCAB34C0025F418 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A96FB3751FCAB34C0025F418 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96FB33C1FCAB3310025F418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB3541FCAB3310025F418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB35F1FCAB3310025F418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96FB3361FCAB3310025F418 = {
+			isa = PBXGroup;
+			children = (
+				A96FB3411FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */,
+				A96FB35A1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests */,
+				A96FB3651FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests */,
+				A96FB3401FCAB3310025F418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96FB3401FCAB3310025F418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96FB33F1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用.app */,
+				A96FB3571FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests.xctest */,
+				A96FB3621FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96FB3411FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A96FB3421FCAB3310025F418 /* AppDelegate.h */,
+				A96FB3431FCAB3310025F418 /* AppDelegate.m */,
+				A96FB3451FCAB3310025F418 /* ViewController.h */,
+				A96FB3461FCAB3310025F418 /* ViewController.m */,
+				A96FB3741FCAB34C0025F418 /* TestViewController.h */,
+				A96FB3751FCAB34C0025F418 /* TestViewController.m */,
+				A96FB3481FCAB3310025F418 /* Main.storyboard */,
+				A96FB34B1FCAB3310025F418 /* Assets.xcassets */,
+				A96FB34D1FCAB3310025F418 /* LaunchScreen.storyboard */,
+				A96FB3501FCAB3310025F418 /* Info.plist */,
+				A96FB3511FCAB3310025F418 /* main.m */,
+			);
+			path = "控制器自动调整scrollview内边距的使用";
+			sourceTree = "<group>";
+		};
+		A96FB35A1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A96FB35B1FCAB3310025F418 /* _______scrollview______Tests.m */,
+				A96FB35D1FCAB3310025F418 /* Info.plist */,
+			);
+			path = "控制器自动调整scrollview内边距的使用Tests";
+			sourceTree = "<group>";
+		};
+		A96FB3651FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A96FB3661FCAB3310025F418 /* _______scrollview______UITests.m */,
+				A96FB3681FCAB3310025F418 /* Info.plist */,
+			);
+			path = "控制器自动调整scrollview内边距的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96FB33E1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96FB36B1FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用" */;
+			buildPhases = (
+				A96FB33B1FCAB3310025F418 /* Sources */,
+				A96FB33C1FCAB3310025F418 /* Frameworks */,
+				A96FB33D1FCAB3310025F418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "控制器自动调整scrollview内边距的使用";
+			productName = "控制器自动调整scrollview内边距的使用";
+			productReference = A96FB33F1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96FB3561FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96FB36E1FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用Tests" */;
+			buildPhases = (
+				A96FB3531FCAB3310025F418 /* Sources */,
+				A96FB3541FCAB3310025F418 /* Frameworks */,
+				A96FB3551FCAB3310025F418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96FB3591FCAB3310025F418 /* PBXTargetDependency */,
+			);
+			name = "控制器自动调整scrollview内边距的使用Tests";
+			productName = "控制器自动调整scrollview内边距的使用Tests";
+			productReference = A96FB3571FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A96FB3611FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96FB3711FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用UITests" */;
+			buildPhases = (
+				A96FB35E1FCAB3310025F418 /* Sources */,
+				A96FB35F1FCAB3310025F418 /* Frameworks */,
+				A96FB3601FCAB3310025F418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96FB3641FCAB3310025F418 /* PBXTargetDependency */,
+			);
+			name = "控制器自动调整scrollview内边距的使用UITests";
+			productName = "控制器自动调整scrollview内边距的使用UITests";
+			productReference = A96FB3621FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96FB3371FCAB3310025F418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lixiaoqiang;
+				TargetAttributes = {
+					A96FB33E1FCAB3310025F418 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A96FB3561FCAB3310025F418 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96FB33E1FCAB3310025F418;
+					};
+					A96FB3611FCAB3310025F418 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96FB33E1FCAB3310025F418;
+					};
+				};
+			};
+			buildConfigurationList = A96FB33A1FCAB3310025F418 /* Build configuration list for PBXProject "控制器自动调整scrollview内边距的使用" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96FB3361FCAB3310025F418;
+			productRefGroup = A96FB3401FCAB3310025F418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96FB33E1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */,
+				A96FB3561FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用Tests */,
+				A96FB3611FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96FB33D1FCAB3310025F418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96FB34F1FCAB3310025F418 /* LaunchScreen.storyboard in Resources */,
+				A96FB34C1FCAB3310025F418 /* Assets.xcassets in Resources */,
+				A96FB34A1FCAB3310025F418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB3551FCAB3310025F418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB3601FCAB3310025F418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96FB33B1FCAB3310025F418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96FB3471FCAB3310025F418 /* ViewController.m in Sources */,
+				A96FB3521FCAB3310025F418 /* main.m in Sources */,
+				A96FB3761FCAB34C0025F418 /* TestViewController.m in Sources */,
+				A96FB3441FCAB3310025F418 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB3531FCAB3310025F418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96FB35C1FCAB3310025F418 /* _______scrollview______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96FB35E1FCAB3310025F418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96FB3671FCAB3310025F418 /* _______scrollview______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96FB3591FCAB3310025F418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96FB33E1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */;
+			targetProxy = A96FB3581FCAB3310025F418 /* PBXContainerItemProxy */;
+		};
+		A96FB3641FCAB3310025F418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96FB33E1FCAB3310025F418 /* 控制器自动调整scrollview内边距的使用 */;
+			targetProxy = A96FB3631FCAB3310025F418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96FB3481FCAB3310025F418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96FB3491FCAB3310025F418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A96FB34D1FCAB3310025F418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96FB34E1FCAB3310025F418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96FB3691FCAB3310025F418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A96FB36A1FCAB3310025F418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96FB36C1FCAB3310025F418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96FB36D1FCAB3310025F418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A96FB36F1FCAB3310025F418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制器自动调整scrollview内边距的使用.app/控制器自动调整scrollview内边距的使用";
+			};
+			name = Debug;
+		};
+		A96FB3701FCAB3310025F418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制器自动调整scrollview内边距的使用.app/控制器自动调整scrollview内边距的使用";
+			};
+			name = Release;
+		};
+		A96FB3721FCAB3310025F418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "控制器自动调整scrollview内边距的使用";
+			};
+			name = Debug;
+		};
+		A96FB3731FCAB3310025F418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "控制器自动调整scrollview内边距的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yixia.-------scrollview------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "控制器自动调整scrollview内边距的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96FB33A1FCAB3310025F418 /* Build configuration list for PBXProject "控制器自动调整scrollview内边距的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96FB3691FCAB3310025F418 /* Debug */,
+				A96FB36A1FCAB3310025F418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96FB36B1FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96FB36C1FCAB3310025F418 /* Debug */,
+				A96FB36D1FCAB3310025F418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96FB36E1FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96FB36F1FCAB3310025F418 /* Debug */,
+				A96FB3701FCAB3310025F418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96FB3711FCAB3310025F418 /* Build configuration list for PBXNativeTarget "控制器自动调整scrollview内边距的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96FB3721FCAB3310025F418 /* Debug */,
+				A96FB3731FCAB3310025F418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96FB3371FCAB3310025F418 /* Project object */;
+}
